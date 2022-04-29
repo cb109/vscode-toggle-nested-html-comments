@@ -1,4 +1,4 @@
-# vscode-toggle-nested-html-comments README
+# vscode-toggle-nested-html-comments
 
 Like `Toggle Line Comment`, but preserves nested HTML comments.
 
@@ -15,6 +15,12 @@ This animation explains it best:
 
 - By default the HTML comments are disabled like `<!--` becoming `<!-#-` and `-->` becoming `-#->`.
 - You can change that by defining different replacements in `disabledHtmlCommentStart` and `disabledHtmlCommentEnd`.
+
+## Installation from source
+
+  npm install -g vsce
+  vsce package
+  code --install-extension vscode-toggle-nested-html-comments-0.0.1.vsix
 
 ## Known Issues
 

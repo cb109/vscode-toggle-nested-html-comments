@@ -3,6 +3,8 @@
 	"displayName": "vscode-toggle-nested-html-comments",
 	"description": "Like Toggle Line Comment, but preserves nested HTML comments",
 	"version": "0.0.1",
+	"publisher": "cbuelter",
+	"repository": "https://github.com/cb109/vscode-toggle-nested-html-comments",
 	"engines": {
 		"vscode": "^1.66.0"
 	},
