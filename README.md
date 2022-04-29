@@ -18,9 +18,11 @@ This animation explains it best:
 
 ## Installation from source
 
-  npm install -g vsce
-  vsce package
-  code --install-extension vscode-toggle-nested-html-comments-0.0.1.vsix
+```bash
+npm install -g vsce
+vsce package
+code --install-extension vscode-toggle-nested-html-comments-0.0.1.vsix
+```
 
 ## Known Issues
 
